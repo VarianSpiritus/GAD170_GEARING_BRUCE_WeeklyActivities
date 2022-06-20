@@ -16,9 +16,9 @@ namespace BruceGearing
         // Start is called before the first frame update
         void Start()
         {
-            playerStrength = Random.Range; (1, 11);
-            playerAgility = Random.Range; (1, 11);
-            playerIntelligence = Random.Range; (1, 11);
+            playerStrength = Random.Range (1, 11);
+            playerAgility = Random.Range (1, 11);
+            playerIntelligence = Random.Range (1, 11);
             powerLevelPlayerOne = playerStrength * 2 + playerAgility * 1.5f + playerIntelligence;
             powerLevelPlayerTwo = playerStrength * 2 + playerAgility * 1.5f + playerIntelligence;
 
